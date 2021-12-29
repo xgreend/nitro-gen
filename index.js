@@ -4,7 +4,7 @@ const fs = require('fs');
 const prompt = require('prompt');
 var RandExp = require('randexp');
 const ProxyAgent = require('proxy-agent');
-const codes = fs.readFileSync('CustomCodes.txt', 'utf-8').replace(/\r/gi, '').split('\n');
+const codes = fs.readFileSync('customCodes.txt', 'utf-8').replace(/\r/gi, '').split('\n');
 var proxies = fs.readFileSync('proxies.txt', 'utf-8').replace(/\r/gi, '').split('\n');
 const config = require("./config.json");
 
